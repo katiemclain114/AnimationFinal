@@ -60,16 +60,16 @@ public class PlayerMovement : MonoBehaviour
         switch (facing)
         {
             case 0:
-                attackPos = transform.position + Vector3.up/2;
+                attackPos = transform.position + Vector3.up;
                 break;
             case 1:
-                attackPos = transform.position + Vector3.right/2;
+                attackPos = transform.position + Vector3.right;
                 break;
             case 2:
-                attackPos = transform.position + Vector3.down/2;
+                attackPos = transform.position + Vector3.down;
                 break;
             case 3:
-                attackPos = transform.position + Vector3.left/2;
+                attackPos = transform.position + Vector3.left;
                 break;
         }
     }
@@ -179,7 +179,12 @@ public class PlayerMovement : MonoBehaviour
             currentSpeed.x = Mathf.Lerp(currentSpeed.x, 0, .2f);
         }
 
-         run = Input.GetKey(KeyCode.LeftShift);
+        run = Input.GetKey(KeyCode.LeftShift);
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            anim.SetTrigger("StartRun");
+        }
+        
         if (!attacking)
         {
             anim.SetBool("Running", run);
