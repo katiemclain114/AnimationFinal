@@ -41,7 +41,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             Attack();
         }
@@ -78,9 +78,10 @@ public class PlayerMovement : MonoBehaviour
     {
 
         //Instantiate(hitBox, attackPos, Quaternion.identity);
+        hitBox.SetActive(true);
         hitBox.transform.position = attackPos;
-        hitBox.GetComponent<Animator>().Play("shrinkHitBoxAnim", -1, 0);
-        hitBox.GetComponent<HitBox>().StartAttack();
+        //hitBox.GetComponent<Animator>().Play("shrinkHitBoxAnim", -1, 0);
+        //hitBox.GetComponent<HitBox>().EnableCollider();
         attacking = true;
         anim.SetBool("Attacking", true);
 
@@ -104,6 +105,8 @@ public class PlayerMovement : MonoBehaviour
 
     public void StopAttacking()
     {
+        hitBox.SetActive(false);
+        //hitBox.GetComponent<HitBox>().DisableCollider();
         attacking = false;
         anim.SetBool("Attacking", false);
     }
@@ -180,10 +183,10 @@ public class PlayerMovement : MonoBehaviour
         }
 
         run = Input.GetKey(KeyCode.LeftShift);
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            anim.SetTrigger("StartRun");
-        }
+        // if (Input.GetKeyDown(KeyCode.LeftShift))
+        // {
+        //     anim.SetTrigger("StartRun");
+        // }
         
         if (!attacking)
         {

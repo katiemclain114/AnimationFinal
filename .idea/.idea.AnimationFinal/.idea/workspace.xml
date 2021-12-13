@@ -13,6 +13,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/HitBox.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+    </changedPaths>
+  </component>
   <component name="ProjectId" id="223IUNf3jkMpAMnzPnwb3To1VRH" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,7 +40,6 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -44,7 +49,6 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -60,6 +64,8 @@
       <option name="presentableId" value="Default" />
       <updated>1639059863746</updated>
       <workItem from="1639059878837" duration="2472000" />
+      <workItem from="1639159543257" duration="714000" />
+      <workItem from="1639344973186" duration="1797000" />
     </task>
     <servers />
   </component>
