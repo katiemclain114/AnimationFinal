@@ -5,9 +5,12 @@ using UnityEngine;
 public class attackbleObject : MonoBehaviour
 {
     private Animator anim;
+    private RobiFriendFollow rff;
+    public Transform robiTarget;
 
     void Start()
     {
+        rff = RobiFriendFollow.instance;
         anim = GetComponent<Animator>();
     }
     
@@ -16,7 +19,11 @@ public class attackbleObject : MonoBehaviour
     {
         if (other.gameObject.CompareTag("HitBox"))
         {
-            anim.Play("AttackableObjHitAnim");
+            if (!rff.gettingGear)
+            {
+                rff.attackTransform = robiTarget;
+                rff.gettingGear = true;
+            }
         }
     }
 

@@ -4,7 +4,31 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 8538976425183471669
-    second: robiFriend_0
+    second: gear00
+  - first:
+      213: 6343767374791599381
+    second: petal
+  - first:
+      213: 8997006309359083403
+    second: gear00
+  - first:
+      213: -2146836289509148689
+    second: robiFriend
+  - first:
+      213: -8148003666917328941
+    second: gear01
+  - first:
+      213: -7392873802604730903
+    second: gear02
+  - first:
+      213: 8997006309359083403
+    second: gear00
+  - first:
+      213: 6343767374791599381
+    second: handOpened
+  - first:
+      213: 6105957511331825299
+    second: handClosed
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -102,7 +126,28 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: robiFriend_0
+      name: gear00
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 274
+        width: 136
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8fdb47f199cbdc70800000000000000
+      internalID: 8997006309359083403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robiFriend
       rect:
         serializedVersion: 2
         x: 252
@@ -110,14 +155,98 @@ TextureImporter:
         width: 64
         height: 116
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 538ee7831d9808670800000000000000
-      internalID: 8538976425183471669
+      spriteID: fe7b3e4e4c7e432e0800000000000000
+      internalID: -2146836289509148689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gear01
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 124
+        width: 138
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7ffccb5d97cee80800000000000000
+      internalID: -8148003666917328941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gear02
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 13
+        width: 95
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e52476127c376990800000000000000
+      internalID: -7392873802604730903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: handOpened
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 183
+        width: 49
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5156a2011d6990850800000000000000
+      internalID: 6343767374791599381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: handClosed
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 174
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396cf8c7108bcb450800000000000000
+      internalID: 6105957511331825299
       vertices: []
       indices: 
       edges: []

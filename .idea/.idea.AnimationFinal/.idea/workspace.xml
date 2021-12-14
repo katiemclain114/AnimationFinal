@@ -13,10 +13,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RobiFriendAnim.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/HitBox.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EmitParticlesOnTile.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/attackbleObject.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/RobiFriendFollow.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/RobiFriendAnim.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="223IUNf3jkMpAMnzPnwb3To1VRH" />
@@ -66,6 +73,7 @@
       <workItem from="1639059878837" duration="2472000" />
       <workItem from="1639159543257" duration="714000" />
       <workItem from="1639344973186" duration="1797000" />
+      <workItem from="1639451448218" duration="3914000" />
     </task>
     <servers />
   </component>

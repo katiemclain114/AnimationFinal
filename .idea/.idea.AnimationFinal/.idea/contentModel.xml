@@ -103,6 +103,7 @@
           <e p="HitBox.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="reactiveTile.cs" t="Include" />
+          <e p="RobiFriendAnim.cs" t="Include" />
           <e p="RobiFriendFollow.cs" t="Include" />
           <e p="SetMeshRenderLayer2D.cs" t="Include" />
           <e p="Sign.cs" t="Include" />
